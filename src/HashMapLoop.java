@@ -8,7 +8,7 @@ public class HashMapLoop {
         capitalCities.put("Kenya", "Nairobi");
 
         for (String i: capitalCities.keySet()) {
-            System.out.println(i);
+            System.out.println("Key: " + i + " " + "Value: " + capitalCities.get(i));
         }
     }
 }
