@@ -5,7 +5,7 @@ public class SmallestElement {
         int lowestAge = ages[0];
 
         for (int age: ages) {
-            if (lowestAge > age) {
+            if (age < lowestAge) {
                 lowestAge = age;
             }
         }
